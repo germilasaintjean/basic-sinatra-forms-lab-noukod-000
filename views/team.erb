@@ -5,13 +5,12 @@
   <title>Basketball Team</title>
  </head>
  <body>
-   Team Name: <%= @team_name %>
- Coach: <%= @coach %>
- Point Guard: <%= @point_guard %>
- Shooting Guard: <%= @shooting_guard %>
- Small Forward: <%= @small_forward %>
- Power Forward: <%= @power_forward %>
- Center: <%= @center %>
-<input id="Submit" type="submit"/>
-   </body>
+   <h1>Team Name: <%= "#{@name}" %></h1>
+   <h2>Coach: <%= "#{@coach}" %></h2>
+   <h2>Point Guard: <%= "#{@pg}" %></h2>
+   <h2>Shooting Guard: <%= "#{@sg}" %></h2>
+   <h2>Small Forward: <%= "#{@sf}" %></h2>
+   <h2>Power Forward: <%= "#{@pf}" %></h2>
+   <h2>Center: <%= "#{@center}" %></h2>
+ </body>
 </html>
